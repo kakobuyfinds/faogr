@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#103e31">
+<title>iTaoBuy spreadsheet — Product Finds, Prices & Buying Checklist</title>
+<meta name="description" content="Explore an independent iTaoBuy spreadsheet guide with real HipobuyFind catalog items, category filters, CNY prices, product IDs and practical buying checks.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="iTaoBuy spreadsheet — Find. Compare. Check.">
+<meta property="og:description" content="Browse real catalog records, compare product prices and prepare your sizing, QC and shipping checklist.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#f4f6f0;--paper:#fff;--ink:#17382c;--muted:#596b60;--green:#103e31;--lime:#d4ed9a;--line:#dae2d5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #92b344;outline-offset:4px}.wrap{max-width:1180px;margin:auto;padding:0 24px}.skip{position:absolute;top:-80px;background:white;padding:12px;z-index:9}.skip:focus{top:0}header{border-bottom:1px solid var(--line)}.header{display:flex;justify-content:space-between;align-items:center;gap:18px;padding-top:20px;padding-bottom:20px}.brand{font-size:18px;font-weight:850;text-decoration:none;letter-spacing:-.6px}.brand span{color:#6f833c}nav{display:flex;gap:22px;font-size:14px}nav a{text-decoration:none}.hero{text-align:center;padding:76px 24px 54px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#61763c}h1{font-size:clamp(42px,7.5vw,84px);line-height:1.05;letter-spacing:-4px;margin:20px 0}h1 span{display:block;font-size:.48em;letter-spacing:-1.6px;color:#647843;margin-top:18px}.intro{max-width:720px;margin:24px auto;color:var(--muted);font-size:18px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:28px 0 16px}.btn{display:inline-flex;justify-content:center;align-items:center;padding:13px 24px;border-radius:9px;text-decoration:none;font-weight:750;background:var(--green);color:white;border:1px solid var(--green)}.btn.light{background:var(--lime);color:var(--ink);border-color:var(--lime)}.small{font-size:13px;color:var(--muted)}.facts{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#eaf0e1;margin-bottom:54px}.facts div{text-align:center;padding:20px}.facts div+div{border-left:1px solid var(--line)}.facts strong{display:block;font-size:24px}.section{padding-bottom:60px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:20px}h2{font-size:clamp(26px,3vw,36px);line-height:1.2;letter-spacing:-1px;margin:10px 0 14px}h3{line-height:1.35}p{margin:12px 0}.section-head p{max-width:610px;color:var(--muted)}.tools{display:grid;grid-template-columns:1fr 210px 190px;gap:12px;padding:18px;background:var(--green);border-radius:14px;color:white}.tools label{font-size:12px;font-weight:700}.tools input,.tools select{display:block;width:100%;margin-top:6px;padding:11px;border:1px solid #c8d5c5;border-radius:7px;background:white;color:var(--ink)}.result{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:16px 0;font-size:13px}.reset{border:0;background:transparent;color:var(--green);text-decoration:underline;cursor:pointer}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:white;display:flex;flex-direction:column}.card[hidden]{display:none}.image{aspect-ratio:1;background:#edf0e8;position:relative}.image img{width:100%;height:100%;object-fit:contain;display:block;mix-blend-mode:multiply}.body{padding:16px;display:flex;flex:1;flex-direction:column}.tag{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:#617449;font-weight:750}.card h3{font-size:16px;margin:9px 0;min-height:44px}.price{font-weight:850;font-size:22px;margin-top:auto}.id{font-size:12px;color:var(--muted)}.card a{font-size:13px;font-weight:750;margin-top:12px;text-underline-offset:4px}.empty{padding:35px;text-align:center;border:1px dashed var(--line);border-radius:12px}.panel{background:var(--green);color:#fff;border-radius:18px;padding:36px}.panel p{color:#d7e3d7}.columns{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.columns article{border-top:2px solid #b2ca8e;padding-top:15px}.step{font-size:12px;color:#b6d286;font-weight:800}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;background:white;font-size:14px}th,td{text-align:left;padding:15px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#e9efdf}.calculator{display:grid;grid-template-columns:1fr 1fr;gap:28px;border:1px solid var(--line);border-radius:14px;background:white;padding:28px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fields label{font-size:13px}.fields input{width:100%;padding:10px;border:1px solid var(--line);border-radius:6px;margin-top:5px}.total{font-size:36px;font-weight:850;display:block;line-height:1.2;margin-top:16px}details{background:white;border:1px solid var(--line);border-radius:9px;padding:18px 20px;margin:10px 0}summary{font-weight:750;cursor:pointer}details p{color:var(--muted)}footer{border-top:1px solid var(--line);padding:28px 0 40px;font-size:13px;color:var(--muted)}.footer-row{display:flex;justify-content:space-between;gap:25px}.footer-row p{max-width:760px}.note{border-left:3px solid #9eb76d;padding:6px 16px;margin:20px 0;color:var(--muted)}
+@media(max-width:950px){.grid{grid-template-columns:repeat(3,1fr)}.tools{grid-template-columns:1fr 1fr}.tools label:first-child{grid-column:1/-1}.columns{grid-template-columns:1fr}.calculator{grid-template-columns:1fr}}
+@media(max-width:620px){.wrap{padding:0 16px}.header{align-items:flex-start;flex-direction:column}nav{gap:18px}.hero{padding:48px 16px 32px}h1{letter-spacing:-2px}.intro{font-size:16px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.body{padding:12px}.card h3{font-size:14px;min-height:55px}.price{font-size:20px}.facts div{padding:14px 6px}.facts strong{font-size:20px}.facts{font-size:12px;margin-bottom:35px}.section-head,.footer-row{display:block}.panel{padding:24px}.calculator{padding:20px}.tools{padding:14px;gap:10px}.tools select{font-size:14px}.section{padding-bottom:40px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@graph":[
+{"@type":"WebPage","name":"iTaoBuy spreadsheet — Product Finds, Prices & Buying Checklist","description":"An independent research guide featuring a dated selection of real HipobuyFind catalog records and practical product comparison tools.","inLanguage":"en","about":{"@type":"Thing","name":"iTaoBuy spreadsheet"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is an iTaoBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"It is a product discovery list used to organize finds, prices and listing references for research. This page features records from HipobuyFind and does not provide an official iTaoBuy catalog or checkout."}},
+{"@type":"Question","name":"Where do the two main buttons go?","acceptedAnswer":{"@type":"Answer","text":"Both the iTaoBuy spreadsheet button and the Buy it now button open https://hipobuyfind.com. They do not place an order."}},
+{"@type":"Question","name":"Do these prices include shipping?","acceptedAnswer":{"@type":"Answer","text":"No. Displayed CNY values are source catalog item prices from a dated snapshot. Shipping, service charges, exchange costs, taxes and variant price differences may be additional."}},
+{"@type":"Question","name":"Are these product photos QC evidence?","acceptedAnswer":{"@type":"Answer","text":"No. Catalog images are listing images. They do not establish the condition, measurements or authenticity of an item you may receive."}}
+]}
+]}
+</script>
+<!--
+Deployment notes for index.html:
+No deployment URL or verified search-engine account was supplied, so Google
+and Bing submission has not been performed. After hosting this file, add an
+absolute self-referencing canonical and og:url for its actual public URL.
+Verify the property in Google Search Console and Bing Webmaster Tools,
+then submit the published URL and a hosted sitemap through those services.
+Do not point this page's canonical at the external product catalog.
+
+Research reviewed public search results and pages including:
+https://www.itaobuysheets.com/
+https://chinagrails.com/en/spreadsheet/agent/itaobuy
+https://itaobuy-spreadsheet.net/
+Search results vary by location and time; a Google first-page position
+was not independently established.
+Applied opportunities: server-visible product records, visible source IDs,
+dated price provenance, search and sorting, explicit destination disclosure,
+practical comparison guidance and a user-entered cost calculator.
+Catalog source: https://hipobuyfind.com/
+Snapshot prepared 2026-11-19, Asia/Shanghai.
+-->
+<link rel="canonical" href="https://kakobuyfinds.github.io/faogr/">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<div class="wrap header">
+<a class="brand" href="https://hipobuyfind.com">iTaoBuy<span> spreadsheet</span></a>
+<nav aria-label="Main navigation">
+<a href="#catalog">Catalog</a>
+<a href="#guide">Buying guide</a>
+<a href="#faq">FAQ</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<section class="hero">
+<div class="eyebrow">Independent finds & buying research</div>
+<h1>iTaoBuy spreadsheet<span>Find less noise. Make a better shortlist.</span></h1>
+<p class="intro">Explore real product records, compare item prices and keep the important checks close. Start with a category, identify the exact listing, then review fit and total cost before deciding.</p>
+<div class="actions">
+<a class="btn" href="https://hipobuyfind.com">iTaoBuy spreadsheet</a>
+<a class="btn light" href="https://hipobuyfind.com">Buy it now <span aria-hidden="true">&nbsp;↗</span></a>
+</div>
+<p class="small">Both buttons open HipobuyFind. No purchase is completed here. Independent resource; not affiliated with iTaoBuy.</p>
+</section>
+<div class="wrap">
+<div class="facts" aria-label="Catalog overview">
+<div><strong>12</strong>Imported product records</div>
+<div><strong>6</strong>Categories to compare</div>
+<div><strong>CNY</strong>Source item prices</div>
+</div>
+
+<section class="section" id="catalog" aria-labelledby="catalog-title">
+<div class="section-head">
+<div><div class="eyebrow">The product directory</div><h2 id="catalog-title">Browse the finds</h2></div>
+<p>Imported from the public <a href="https://hipobuyfind.com">HipobuyFind catalog</a>. Snapshot: <time datetime="2026-11-19">19 November 2026</time>. This is a selected sample, with listing IDs preserved for rechecking.</p>
+</div>
+<div class="tools">
+<label for="search">Search titles or item IDs
+<input id="search" type="search" placeholder="Try hoodie, backpack or 154936" autocomplete="off">
+</label>
+<label for="category">Category
+<select id="category"><option value="">All categories</option><option>Shoes</option><option>Hoodies</option><option>T-Shirts</option><option>Jackets</option><option>Bags</option><option>Belts</option></select>
+</label>
+<label for="sort">Sort by
+<select id="sort"><option value="original">Directory order</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select>
+</label>
+</div>
+<div class="result"><span id="count" role="status" aria-live="polite">Showing 12 of 12 records</span><button class="reset" id="reset" type="button">Reset filters</button></div>
+<div class="grid" id="products">
+<article class="card" data-category="Shoes" data-price="19.8" data-id="152865">
+<div class="image"><img src="https://si.geilicdn.com/open1862809525-1234478995-1f3b0000019ab6b004c60a8115c2_800_800.jpg" alt="Sneakers, source listing 152865" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Shoes</span><h3>Sneakers</h3><div class="price">¥19.80</div><span class="id">Item 152865</span><a href="https://hipobuyfind.com/goods-152865.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Shoes" data-price="145" data-id="149969">
+<div class="image"><img src="https://si.geilicdn.com/open1623462477-1234478995-000d00000194e28adce90aa08290_1000_1000.jpg" alt="Black and red basketball sneakers" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Shoes</span><h3>Black and Red Basketball Sneakers</h3><div class="price">¥145.00</div><span class="id">Item 149969</span><a href="https://hipobuyfind.com/goods-149969.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Hoodies" data-price="300" data-id="154936">
+<div class="image"><img src="https://si.geilicdn.com/open1792148229-1234478995-0daf00000196c1a57bec0aa0834c_1290_1290.jpg" alt="Gray hooded hoodie" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Hoodies</span><h3>Gray Hooded Hoodie</h3><div class="price">¥300.00</div><span class="id">Item 154936</span><a href="https://hipobuyfind.com/goods-154936.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Hoodies" data-price="170" data-id="154917">
+<div class="image"><img src="https://si.geilicdn.com/open1792148229-1234478995-76d100000196f413b04f0a8133b0_800_800.jpg" alt="Fleece-lined hoodie" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Hoodies</span><h3>Fleece-Lined Hoodie</h3><div class="price">¥170.00</div><span class="id">Item 154917</span><a href="https://hipobuyfind.com/goods-154917.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="T-Shirts" data-price="105" data-id="154920">
+<div class="image"><img src="https://si.geilicdn.com/open1792148229-1234478995-09a000000196efa4b3cc0aa0834c_800_800.jpg" alt="Graphic short-sleeve T-shirt" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">T-Shirts</span><h3>Graphic Short-Sleeve T-Shirt</h3><div class="price">¥105.00</div><span class="id">Item 154920</span><a href="https://hipobuyfind.com/goods-154920.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="T-Shirts" data-price="105" data-id="154919">
+<div class="image"><img src="https://si.geilicdn.com/open1792148229-1234478995-062200000196efa3fa4d0a23b4de_800_800.jpg" alt="Short-sleeve T-shirt" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">T-Shirts</span><h3>Short-Sleeve T-Shirt</h3><div class="price">¥105.00</div><span class="id">Item 154919</span><a href="https://hipobuyfind.com/goods-154919.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Jackets" data-price="157.14" data-id="154851">
+<div class="image"><img src="https://si.geilicdn.com/wdseller1489596767-2b4400000193c17bed690a210139_697_1024.jpg" alt="Hooded quick-dry jacket" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Jackets</span><h3>Hooded Quick-Dry Jacket</h3><div class="price">¥157.14</div><span class="id">Item 154851</span><a href="https://hipobuyfind.com/goods-154851.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Jackets" data-price="268" data-id="152572">
+<div class="image"><img src="https://si.geilicdn.com/pcitem1962441348-7120000001994b6b3cc20a20e2c5_1230_1583.jpg" alt="Lightweight puffer jacket" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Jackets</span><h3>Lightweight Puffer Jacket</h3><div class="price">¥268.00</div><span class="id">Item 152572</span><a href="https://hipobuyfind.com/goods-152572.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Bags" data-price="340" data-id="154850">
+<div class="image"><img src="https://si.geilicdn.com/pcitem901921648802-7dbe000001955a1df4c10a210349_1080_1080.jpg" alt="Beige quilted drawstring mini backpack" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Bags</span><h3>Beige Quilted Drawstring Mini Backpack</h3><div class="price">¥340.00</div><span class="id">Item 154850</span><a href="https://hipobuyfind.com/goods-154850.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Bags" data-price="300" data-id="154846">
+<div class="image"><img src="https://si.geilicdn.com/pcitem901921648802-198100000195895893e60a231316_939_939.jpg" alt="Multi-pocket flap backpack color collection" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Bags</span><h3>Multi-Pocket Flap Backpack Color Collection</h3><div class="price">¥300.00</div><span class="id">Item 154846</span><a href="https://hipobuyfind.com/goods-154846.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Belts" data-price="80" data-id="154171">
+<div class="image"><img src="https://si.geilicdn.com/open1769158365-252808396-59a1000001982cde7e140a23b491_1920_1920.jpg" alt="Belt, source listing 154171" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Belts</span><h3>Belt</h3><div class="price">¥80.00</div><span class="id">Item 154171</span><a href="https://hipobuyfind.com/goods-154171.html">Review source listing ↗</a></div>
+</article>
+<article class="card" data-category="Belts" data-price="90" data-id="154170">
+<div class="image"><img src="https://si.geilicdn.com/open1769158365-252808396-061500000198231a51fa0a231226_790_790.jpg" alt="Buckle belt" width="400" height="400" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Belts</span><h3>Buckle Belt</h3><div class="price">¥90.00</div><span class="id">Item 154170</span><a href="https://hipobuyfind.com/goods-154170.html">Review source listing ↗</a></div>
+</article>
+</div>
+<p class="empty" id="empty" hidden>No matching items. Try a shorter search or choose all categories.</p>
+<noscript><p>All 12 records are visible. Search, category filtering, sorting and the calculator require JavaScript.</p></noscript>
+<p class="note">Prices and pictures are a dated catalog snapshot, not live stock or an authenticity assessment. Titles omit unrelated search phrases from the source. Product links open the corresponding HipobuyFind record; support by iTaoBuy has not been verified.</p>
+</section>
+
+<section class="section" id="guide">
+<div class="panel">
+<div class="eyebrow" style="color:#c5dd9c">A practical starting point</div>
+<h2>How to use an iTaoBuy spreadsheet</h2>
+<p>A spreadsheet helps you organize a decision. The useful record is the product plus its exact option, measurements, source and cost assumptions. Keep those details together so a similar image does not lead you to compare different items.</p>
+<div class="columns">
+<article><span class="step">01 / IDENTIFY</span><h3>Match the actual listing</h3><p>Open the source record and compare its item number, images and description. Record the seller’s original marketplace URL when available. A catalog record number is not necessarily a Taobao or Weidian product ID.</p></article>
+<article><span class="step">02 / COMPARE</span><h3>Choose an exact variant</h3><p>Note color, size and package contents. For clothing, measure a garment you own and compare chest width, length and sleeves using the seller’s method. For footwear, check the stated size system and length chart.</p></article>
+<article><span class="step">03 / VERIFY</span><h3>Resolve the unknowns</h3><p>Confirm whether your purchasing service accepts the source link and product type. Review current fees, return conditions and shipping options. If inspection is available, check photographs of your actual item before approving dispatch.</p></article>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="eyebrow">Keep evidence separate</div>
+<h2>What to check beyond the product photo</h2>
+<div class="table-wrap">
+<table>
+<caption class="small" style="text-align:left;padding-bottom:12px">A comparison checklist for shoes, clothing and accessories</caption>
+<thead><tr><th scope="col">Detail</th><th scope="col">Record this</th><th scope="col">Resolve before paying</th></tr></thead>
+<tbody>
+<tr><th scope="row">Product identity</th><td>Source URL, seller and exact option</td><td>Does the destination still describe the item you selected?</td></tr>
+<tr><th scope="row">Sizing</th><td>Measurements, units and measuring method</td><td>Are dimensions provided for your chosen size?</td></tr>
+<tr><th scope="row">Materials</th><td>Seller’s stated composition and construction</td><td>Which details are specified, and which are only inferred from images?</td></tr>
+<tr><th scope="row">Inspection / QC</th><td>Order-specific photos and any requested measurements</td><td>Do quantity, color, seams, closures and visible condition match the order?</td></tr>
+<tr><th scope="row">Delivered cost</th><td>Item, domestic delivery, service, international freight and applicable taxes</td><td>Which charges are confirmed, estimated or still unknown?</td></tr>
+<tr><th scope="row">Returns</th><td>Current deadlines and option-specific restrictions</td><td>Can you return the item at the stage when an issue could be discovered?</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="section" aria-labelledby="budget-title">
+<div class="calculator">
+<div>
+<div class="eyebrow">Make the assumptions visible</div>
+<h2 id="budget-title">Build a USD cost scenario</h2>
+<p>Enter your own exchange rate and additional costs. This arithmetic tool does not fetch rates, estimate freight or calculate customs charges.</p>
+<p class="small">Formula: item CNY ÷ CNY per USD + additional costs in USD. Include all relevant charges in your additional-cost assumption.</p>
+<output id="total" class="total" aria-live="polite">Enter your figures</output>
+<p class="small">Illustrative budget only; the destination checkout determines the payable total.</p>
+</div>
+<div class="fields">
+<label for="item">Item price (CNY)<input id="item" type="number" min="0" step="0.01" placeholder="e.g. 170" inputmode="decimal"></label>
+<label for="rate">CNY per 1 USD<input id="rate" type="number" min="0.0001" step="0.0001" placeholder="Your exchange rate" inputmode="decimal"></label>
+<label for="extra">Other costs (USD)<input id="extra" type="number" min="0" step="0.01" placeholder="Enter 0 if none" inputmode="decimal"></label>
+</div>
+</div>
+</section>
+
+<section class="section" id="faq">
+<div class="eyebrow">Clear answers</div>
+<h2>iTaoBuy spreadsheet FAQ</h2>
+<details open><summary>What is an iTaoBuy spreadsheet?</summary><p>It is a product discovery list used to organize finds, prices and listing references for research. This page features records from HipobuyFind and does not provide an official iTaoBuy catalog or checkout.</p></details>
+<details><summary>Where do the two main buttons go?</summary><p>Both the “iTaoBuy spreadsheet” button and the “Buy it now” button open https://hipobuyfind.com. They do not place an order. Individual product links open the matching record on the same external catalog.</p></details>
+<details><summary>Do these prices include shipping?</summary><p>No. Displayed CNY values are source catalog item prices from a dated snapshot. Shipping, service charges, exchange costs, taxes and variant price differences may be additional. Recheck the chosen option before relying on a price.</p></details>
+<details><summary>Are these product photos QC evidence?</summary><p>No. Catalog images are listing images. They do not establish the condition, measurements or authenticity of an item you may receive. Request order-specific evidence when the purchasing service offers it.</p></details>
+<details><summary>Can I use these records directly with iTaoBuy?</summary><p>Compatibility has not been verified. Open the catalog record, identify the underlying seller listing and check whether iTaoBuy currently supports that source, item and destination. Do not treat the HipobuyFind record URL as a confirmed agent purchase link.</p></details>
+<details><summary>Is this an Excel download or a live stock feed?</summary><p>This is a browser-based directory with 12 embedded records. It does not download an Excel workbook or automatically synchronize inventory. The displayed snapshot remains unchanged until the page is updated.</p></details>
+</section>
+
+<section class="section" style="text-align:center">
+<h2>Your next step: review the source.</h2>
+<p>Keep the item ID, verify your preferred option and compare the current details.</p>
+<div class="actions"><a class="btn" href="https://hipobuyfind.com">iTaoBuy spreadsheet</a><a class="btn light" href="https://hipobuyfind.com">Buy it now ↗</a></div>
+</section>
+</div>
+</main>
+<footer>
+<div class="wrap footer-row">
+<div><strong>iTaoBuy spreadsheet · Independent research</strong><p>Catalog source: <a href="https://hipobuyfind.com">HipobuyFind</a>. This page does not process orders, payments or shipping. Product names and images describe external listings; no affiliation or endorsement by iTaoBuy or any displayed brand is implied.</p></div>
+<p>Catalog snapshot<br><time datetime="2026-11-19">19 November 2026</time></p>
+</div>
+</footer>
+<script>
+(function(){
+"use strict";
+const search=document.getElementById("search");
+const category=document.getElementById("category");
+const sort=document.getElementById("sort");
+const grid=document.getElementById("products");
+const cards=Array.from(grid.querySelectorAll(".card"));
+cards.forEach(function(card,index){
+card.dataset.order=String(index);
+const image=card.querySelector("img");
+image.addEventListener("error",function(){
+image.hidden=true;
+const message=document.createElement("p");
+message.textContent="Image unavailable — review source listing";
+message.className="small";
+message.style.padding="20px";
+image.parentElement.appendChild(message);
+},{once:true});
+});
+function update(){
+const query=search.value.trim().toLowerCase();
+const ordered=cards.slice().sort(function(a,b){
+if(sort.value==="low")return Number(a.dataset.price)-Number(b.dataset.price);
+if(sort.value==="high")return Number(b.dataset.price)-Number(a.dataset.price);
+return Number(a.dataset.order)-Number(b.dataset.order);
+});
+let shown=0;
+ordered.forEach(function(card){
+const text=(card.querySelector("h3").textContent+" "+card.dataset.id+" "+card.dataset.category).toLowerCase();
+const match=(!category.value||card.dataset.category===category.value)&&(!query||text.includes(query));
+card.hidden=!match;
+if(match)shown++;
+grid.appendChild(card);
+});
+document.getElementById("count").textContent="Showing "+shown+" of "+cards.length+" records";
+document.getElementById("empty").hidden=shown!==0;
+}
+search.addEventListener("input",update);
+category.addEventListener("change",update);
+sort.addEventListener("change",update);
+document.getElementById("reset").addEventListener("click",function(){
+search.value="";category.value="";sort.value="original";update();search.focus();
+});
+const inputs=["item","rate","extra"].map(function(id){return document.getElementById(id)});
+function calculate(){
+const output=document.getElementById("total");
+if(inputs.some(function(input){return input.value.trim()===""})){
+output.textContent="Enter your figures";return;
+}
+const values=inputs.map(function(input){return Number(input.value)});
+if(!values.every(Number.isFinite)||values[0]<0||values[1]<=0||values[2]<0){
+output.textContent="Check your figures";return;
+}
+const total=values[0]/values[1]+values[2];
+output.textContent=Number.isFinite(total)?new Intl.NumberFormat("en-US",{style:"currency",currency:"USD"}).format(total):"Check your figures";
+}
+inputs.forEach(function(input){input.addEventListener("input",calculate)});
+})();
+</script>
+</body>
+</html>
